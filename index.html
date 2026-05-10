@@ -1,386 +1,584 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Herrera Multimedia | Diseño Gráfico & Branding</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="img/Isologo.jpg" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body {
-            font-family: 'Inter', sans-serif;
-            scroll-behavior: smooth;
-        }
-        .gradient-text {
-            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .card-hover:hover {
-            transform: translateY(-5px);
-            transition: all 0.3s ease;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+      body {
+        font-family: "Inter", sans-serif;
+        scroll-behavior: smooth;
+      }
+      .gradient-text {
+        background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .card-hover:hover {
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
+      }
     </style>
-</head>
-<body class="bg-gray-50 text-gray-900">
-
+  </head>
+  <body class="bg-gray-50 text-gray-900">
     <!-- Navegación Simplificada -->
-    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
-        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-           <a href="#"><img src="img/hm.png" alt="Herrera Multimedia" width="150px">
-            </a> <!-- <div class="text-xl font-bold tracking-tighter">HERRERA <span class="text-blue-600">MULTIMEDIA</span></div> -->
-            <a href="https://wa.me/+34622760546" target="_blank" class="bg-black text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-800 transition">Presupuesto</a>
-        </div>
+    <nav
+      class="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100"
+    >
+      <div
+        class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="#"
+          ><img src="img/hm.png" alt="Herrera Multimedia" width="150px" />
+        </a>
+        <!-- <div class="text-xl font-bold tracking-tighter">HERRERA <span class="text-blue-600">MULTIMEDIA</span></div> -->
+        <a
+          href="https://wa.me/+34622760546"
+          target="_blank"
+          class="bg-black text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-800 transition"
+          >Presupuesto</a
+        >
+      </div>
     </nav>
 
     <!-- PORTADA / HERO -->
     <header class="pt-32 pb-20 px-6">
-        <div class="max-w-4xl mx-auto text-center">
-            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">Herrera Multimedia <span class="gradient-text">Soluciones creativas de comunicación audiovisual</span></h1>
-            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Identidad Visual · Publicidad · Contenido Digital. Diseños profesionales enfocados en reforzar la imagen de tu marca.
-            </p>
-            <div class="flex flex-wrap justify-center gap-4">
-                <a href="#packs" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition shadow-lg shadow-blue-200">Ver Packs</a>
-                <a href="#sobre-mi" class="bg-white border border-gray-200 px-8 py-4 rounded-xl font-semibold hover:bg-gray-50 transition">Sobre mí</a>
-            </div>
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+          Herrera Multimedia
+          <span class="gradient-text"
+            >Soluciones creativas de comunicación audiovisual</span
+          >
+        </h1>
+        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+          Identidad Visual · Publicidad · Contenido Digital. Diseños
+          profesionales enfocados en reforzar la imagen de tu marca.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a
+            href="#packs"
+            class="bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition shadow-lg shadow-blue-200"
+            >Ver Packs</a
+          >
+          <a
+            href="#sobre-mi"
+            class="bg-white border border-gray-200 px-8 py-4 rounded-xl font-semibold hover:bg-gray-50 transition"
+            >Sobre mí</a
+          >
         </div>
+      </div>
     </header>
 
     <!-- SOBRE MÍ -->
     <section id="sobre-mi" class="py-20 bg-white px-6">
-        <div class="max-w-6xl mx-auto">
-            <div class="grid md:grid-cols-2 gap-16 items-center">
-                <div>
-                    <h2 class="text-3xl font-bold mb-6">Creamos soluciones visuales con propósito</h2>
-                    <p class="text-gray-600 text-lg mb-6 leading-relaxed">
-                        Soy diseñador gráfico especializado en identidad visual y comunicación digital. Mi objetivo es que tu marca se vea profesional, genere confianza y destaque frente a la competencia.
-                    </p>
-                    <div class="grid grid-cols-1 gap-4">
-                        <div class="flex items-center gap-3">
-                            <i class="fas fa-check-circle text-green-500 text-xl"></i>
-                            <span class="font-medium text-gray-700">Comunicación clara y plazos cumplidos</span>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <i class="fas fa-check-circle text-green-500 text-xl"></i>
-                            <span class="font-medium text-gray-700">Diseño orientado a objetivos de negocio</span>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <i class="fas fa-check-circle text-green-500 text-xl"></i>
-                            <span class="font-medium text-gray-700">Archivos listos para impresión y digital</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-gray-100 rounded-3xl aspect-square flex items-center justify-center border-2 border-dashed border-gray-300">
-                    <span class="text-gray-400 italic text-center p-8"><img src="img/23FS.png" alt="Trabajo de Diseño"></span>
-                </div>
+      <div class="max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div>
+            <h2 class="text-3xl font-bold mb-6">
+              Creamos soluciones visuales con propósito
+            </h2>
+            <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+              Soy diseñador gráfico especializado en identidad visual y
+              comunicación digital. Mi objetivo es que tu marca se vea
+              profesional, genere confianza y destaque frente a la competencia.
+            </p>
+            <div class="grid grid-cols-1 gap-4">
+              <div class="flex items-center gap-3">
+                <i class="fas fa-check-circle text-green-500 text-xl"></i>
+                <span class="font-medium text-gray-700"
+                  >Comunicación clara y plazos cumplidos</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <i class="fas fa-check-circle text-green-500 text-xl"></i>
+                <span class="font-medium text-gray-700"
+                  >Diseño orientado a objetivos de negocio</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <i class="fas fa-check-circle text-green-500 text-xl"></i>
+                <span class="font-medium text-gray-700"
+                  >Archivos listos para impresión y digital</span
+                >
+              </div>
             </div>
+          </div>
+          <div
+            class="bg-gray-100 rounded-3xl aspect-square flex items-center justify-center border-2 border-dashed border-gray-300"
+          >
+            <span class="text-gray-400 italic text-center p-8"
+              ><img src="img/23FS.png" alt="Trabajo de Diseño"
+            /></span>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- PACKS DESTACADOS -->
     <section id="packs" class="py-20 px-6 bg-gray-50">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold mb-4">Packs Destacados</h2>
-                <p class="text-gray-600">Soluciones cerradas para necesidades específicas.</p>
-            </div>
-            
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Pack 1 -->
-                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 card-hover">
-                    <div class="text-blue-600 font-bold mb-2">Básico</div>
-                    <h3 class="text-2xl font-bold mb-4">Pack Identidad</h3>
-                    <div class="text-3xl font-bold mb-6">110 €</div>
-                    <ul class="space-y-3 text-gray-600 mb-8">
-                        <li><i class="fas fa-minus mr-2 text-blue-400"></i> Logo básico</li>
-                        <li><i class="fas fa-minus mr-2 text-blue-400"></i> Tarjetas de visita</li>
-                        <li><i class="fas fa-minus mr-2 text-blue-400"></i> Archivos profesionales</li>
-                    </ul>
-                   <a href="https://wa.me/+34622760546?text=Hola%20Luis!%20Me%20interesa%20el%20Pack%20Identidad%20Básica%20de%20110€%20para%20mi%20proyecto.%20¿Podemos%20hablar?" target="_blank"
-                   class="block text-center w-full bg-gray-100 py-3 rounded-xl font-semibold hover:bg-gray-200 transition text-gray-900"> Elegir Pack Básico
-                </a>
-                </div>
-
-                <!-- Pack 2 (Destacado) -->
-                <div class="bg-blue-600 p-8 rounded-3xl shadow-xl shadow-blue-200 transform scale-105 relative z-10 text-white">
-                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-black text-white text-xs px-3 py-1 rounded-full uppercase tracking-wider font-bold">Más Popular</div>
-                    <div class="opacity-80 font-bold mb-2">Completo</div>
-                    <h3 class="text-2xl font-bold mb-4">Marca Profesional</h3>
-                    <div class="text-3xl font-bold mb-6">420 €</div>
-                    <ul class="space-y-3 opacity-90 mb-8">
-                        <li><i class="fas fa-check mr-2"></i> Logotipo profesional</li>
-                        <li><i class="fas fa-check mr-2"></i> Papelería corporativa</li>
-                        <li><i class="fas fa-check mr-2"></i> Versiones completas</li>
-                    </ul>
-                    <a href="https://wa.me/+34622760546?text=Hola%20Luis!%20Quiero%20llevar%20mi%20marca%20al%20siguiente%20nivel%20con%20el%20Pack%20Marca%20Profesional.%20Cuéntame%20cómo%20empezamos." target="_blank" 
-                    class="block text-center w-full bg-white text-blue-600 py-3 rounded-xl font-semibold hover:bg-gray-100 transition shadow-md">¡Empezar ahora!
-                    </a>
-                </div>
-
-                <!-- Pack 3 -->
-                <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 card-hover">
-                    <div class="text-blue-600 font-bold mb-2">Social</div>
-                    <h3 class="text-2xl font-bold mb-4">Pack RRSS Start</h3>
-                    <div class="text-3xl font-bold mb-6">150 €</div>
-                    <ul class="space-y-3 text-gray-600 mb-8">
-                        <li><i class="fas fa-minus mr-2 text-blue-400"></i> 6 Publicaciones</li>
-                        <li><i class="fas fa-minus mr-2 text-blue-400"></i> 6 Stories</li>
-                        <li><i class="fas fa-minus mr-2 text-blue-400"></i> Portadas perfil</li>
-                    </ul>
-                    <a href="https://wa.me/+34622760546?text=Hola%20Luis!%20Me%20gustaría%20contratar%20el%20Pack%20RRSS%20Start%20para%20mis%20redes%20sociales.%20¿Qué%20necesitas%20de%20mi%20parte?" target="_blank" 
-                    class="block text-center w-full bg-gray-100 py-3 rounded-xl font-semibold hover:bg-gray-200 transition text-gray-900">Contratar Social Start</a>
-                </div>
-            </div>
-
-            <!-- Otros Packs (Horizontal) -->
-            <div class="mt-12 grid md:grid-cols-2 gap-8">
-                <div class="flex items-center p-6 bg-white rounded-2xl border border-gray-100 shadow-sm">
-                    <div class="flex-1">
-                        <h4 class="font-bold text-lg">Pack Evento Visual</h4>
-                        <p class="text-sm text-gray-500">Cartelería, flyers y redes.</p>
-                    </div>
-                    <div class="text-xl font-bold text-blue-600">480 €</div>
-                </div>
-                <div class="flex items-center p-6 bg-white rounded-2xl border border-gray-100 shadow-sm">
-                    <div class="flex-1">
-                        <h4 class="font-bold text-lg">Pack Hostelería</h4>
-                        <p class="text-sm text-gray-500">Menús y cartelería promo.</p>
-                    </div>
-                    <div class="text-xl font-bold text-blue-600">130 €</div>
-                </div>
-                  
-            </div>
-                <div class="flex justify-center py-10 px-3">
-                    <a href="https://wa.me/+34622760546" target="_blank" 
-                    class="text-center bg-red-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-700 transition shadow-lg shadow-blue-200">Contratar otros planes
-                    </a>
-                </div>
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold mb-4">Packs Destacados</h2>
+          <p class="text-gray-600">
+            Soluciones cerradas para necesidades específicas.
+          </p>
         </div>
-        
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Pack 1 -->
+          <div
+            class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 card-hover"
+          >
+            <div class="text-blue-600 font-bold mb-2">Básico</div>
+            <h3 class="text-2xl font-bold mb-4">Pack Identidad</h3>
+            <div class="text-3xl font-bold mb-6">110 €</div>
+            <ul class="space-y-3 text-gray-600 mb-8">
+              <li>
+                <i class="fas fa-minus mr-2 text-blue-400"></i> Logo básico
+              </li>
+              <li>
+                <i class="fas fa-minus mr-2 text-blue-400"></i> Tarjetas de
+                visita
+              </li>
+              <li>
+                <i class="fas fa-minus mr-2 text-blue-400"></i> Archivos
+                profesionales
+              </li>
+            </ul>
+            <a
+              href="https://wa.me/+34622760546?text=Hola%20Luis!%20Me%20interesa%20el%20Pack%20Identidad%20Básica%20de%20110€%20para%20mi%20proyecto.%20¿Podemos%20hablar?"
+              target="_blank"
+              class="block text-center w-full bg-gray-100 py-3 rounded-xl font-semibold hover:bg-gray-200 transition text-gray-900"
+            >
+              Elegir Pack Básico
+            </a>
+          </div>
+
+          <!-- Pack 2 (Destacado) -->
+          <div
+            class="bg-blue-600 p-8 rounded-3xl shadow-xl shadow-blue-200 transform scale-105 relative z-10 text-white"
+          >
+            <div
+              class="absolute -top-4 left-1/2 -translate-x-1/2 bg-black text-white text-xs px-3 py-1 rounded-full uppercase tracking-wider font-bold"
+            >
+              Más Popular
+            </div>
+            <div class="opacity-80 font-bold mb-2">Completo</div>
+            <h3 class="text-2xl font-bold mb-4">Marca Profesional</h3>
+            <div class="text-3xl font-bold mb-6">420 €</div>
+            <ul class="space-y-3 opacity-90 mb-8">
+              <li><i class="fas fa-check mr-2"></i> Logotipo profesional</li>
+              <li><i class="fas fa-check mr-2"></i> Papelería corporativa</li>
+              <li><i class="fas fa-check mr-2"></i> Versiones completas</li>
+            </ul>
+            <a
+              href="https://wa.me/+34622760546?text=Hola%20Luis!%20Quiero%20llevar%20mi%20marca%20al%20siguiente%20nivel%20con%20el%20Pack%20Marca%20Profesional.%20Cuéntame%20cómo%20empezamos."
+              target="_blank"
+              class="block text-center w-full bg-white text-blue-600 py-3 rounded-xl font-semibold hover:bg-gray-100 transition shadow-md"
+              >¡Empezar ahora!
+            </a>
+          </div>
+
+          <!-- Pack 3 -->
+          <div
+            class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 card-hover"
+          >
+            <div class="text-blue-600 font-bold mb-2">Social</div>
+            <h3 class="text-2xl font-bold mb-4">Pack RRSS Start</h3>
+            <div class="text-3xl font-bold mb-6">150 €</div>
+            <ul class="space-y-3 text-gray-600 mb-8">
+              <li>
+                <i class="fas fa-minus mr-2 text-blue-400"></i> 6 Publicaciones
+              </li>
+              <li><i class="fas fa-minus mr-2 text-blue-400"></i> 6 Stories</li>
+              <li>
+                <i class="fas fa-minus mr-2 text-blue-400"></i> Portadas perfil
+              </li>
+            </ul>
+            <a
+              href="https://wa.me/+34622760546?text=Hola%20Luis!%20Me%20gustaría%20contratar%20el%20Pack%20RRSS%20Start%20para%20mis%20redes%20sociales.%20¿Qué%20necesitas%20de%20mi%20parte?"
+              target="_blank"
+              class="block text-center w-full bg-gray-100 py-3 rounded-xl font-semibold hover:bg-gray-200 transition text-gray-900"
+              >Contratar Social Start</a
+            >
+          </div>
+        </div>
+
+        <!-- Otros Packs (Horizontal) -->
+        <div class="mt-12 grid md:grid-cols-2 gap-8">
+          <div
+            class="flex items-center p-6 bg-white rounded-2xl border border-gray-100 shadow-sm"
+          >
+            <div class="flex-1">
+              <h4 class="font-bold text-lg">Pack Evento Visual</h4>
+              <p class="text-sm text-gray-500">Cartelería, flyers y redes.</p>
+            </div>
+            <div class="text-xl font-bold text-blue-600">480 €</div>
+          </div>
+          <div
+            class="flex items-center p-6 bg-white rounded-2xl border border-gray-100 shadow-sm"
+          >
+            <div class="flex-1">
+              <h4 class="font-bold text-lg">Pack Hostelería</h4>
+              <p class="text-sm text-gray-500">Menús y cartelería promo.</p>
+            </div>
+            <div class="text-xl font-bold text-blue-600">130 €</div>
+          </div>
+        </div>
+        <div class="flex justify-center py-10 px-3">
+          <a
+            href="https://wa.me/+34622760546"
+            target="_blank"
+            class="text-center bg-red-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-700 transition shadow-lg shadow-blue-200"
+            >Contratar otros planes
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- SERVICIOS PRINCIPALES -->
-    <section class="py-20 px-6 bg-black ">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold mb-12 text-white">Servicios Individuales</h2>
-            <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
-                <div class="text-center p-6 rounded-2xl bg-gray-50 card-hover">
-                    <i class="fas fa-paint-brush text-2xl mb-4 text-blue-600"></i>
-                    <h4 class="font-bold text-sm mb-2">Branding</h4>
-                    <p class="text-xs text-gray-500">Desde 60€</p>
-                </div>
-                <div class="text-center p-6 rounded-2xl bg-gray-50 card-hover">
-                    <i class="fas fa-bullhorn text-2xl mb-4 text-blue-600"></i>
-                    <h4 class="font-bold text-sm mb-2">Publicidad</h4>
-                    <p class="text-xs text-gray-500">Desde 25€</p>
-                </div>
-                <div class="text-center p-6 rounded-2xl bg-gray-50 card-hover">
-                    <i class="fas fa-mobile-alt text-2xl mb-4 text-blue-600"></i>
-                    <h4 class="font-bold text-sm mb-2">Redes</h4>
-                    <p class="text-xs text-gray-500">Desde 35€</p>
-                </div>
-                <div class="text-center p-6 rounded-2xl bg-gray-50 card-hover">
-                    <i class="fas fa-tshirt text-2xl mb-4 text-blue-600"></i>
-                    <h4 class="font-bold text-sm mb-2">Merch</h4>
-                    <p class="text-xs text-gray-500">Desde 40€</p>
-                </div>
-                <div class="text-center p-6 rounded-2xl bg-gray-50 card-hover">
-                    <i class="fas fa-print text-2xl mb-4 text-blue-600"></i>
-                    <h4 class="font-bold text-sm mb-2">Imprenta</h4>
-                    <p class="text-xs text-gray-500">Desde 25€</p>
-                </div>
-            </div>
+    <section class="py-20 px-6 bg-black">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-white">
+          Servicios Individuales
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+          <div class="text-center p-6 rounded-2xl bg-gray-50 card-hover">
+            <i class="fas fa-paint-brush text-2xl mb-4 text-blue-600"></i>
+            <h4 class="font-bold text-sm mb-2">Branding</h4>
+            <p class="text-xs text-gray-500">Desde 60€</p>
+          </div>
+          <div class="text-center p-6 rounded-2xl bg-gray-50 card-hover">
+            <i class="fas fa-bullhorn text-2xl mb-4 text-blue-600"></i>
+            <h4 class="font-bold text-sm mb-2">Publicidad</h4>
+            <p class="text-xs text-gray-500">Desde 25€</p>
+          </div>
+          <div class="text-center p-6 rounded-2xl bg-gray-50 card-hover">
+            <i class="fas fa-mobile-alt text-2xl mb-4 text-blue-600"></i>
+            <h4 class="font-bold text-sm mb-2">Redes</h4>
+            <p class="text-xs text-gray-500">Desde 35€</p>
+          </div>
+          <div class="text-center p-6 rounded-2xl bg-gray-50 card-hover">
+            <i class="fas fa-tshirt text-2xl mb-4 text-blue-600"></i>
+            <h4 class="font-bold text-sm mb-2">Merch</h4>
+            <p class="text-xs text-gray-500">Desde 40€</p>
+          </div>
+          <div class="text-center p-6 rounded-2xl bg-gray-50 card-hover">
+            <i class="fas fa-print text-2xl mb-4 text-blue-600"></i>
+            <h4 class="font-bold text-sm mb-2">Imprenta</h4>
+            <p class="text-xs text-gray-500">Desde 25€</p>
+          </div>
         </div>
+      </div>
     </section>
 
-<section class="py-16 bg-slate-50" >
-  <div class="max-w-6xl mx-auto px-4">
-    
-    <!-- Título de la sección -->
-    <h2 class="text-3xl font-bold text-center mb-12 text-slate-800">Mis Proyectos</h2>
+    <section class="py-16 bg-slate-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <!-- Título de la sección -->
+        <h2 class="text-3xl font-bold text-center mb-12 text-slate-800">
+          Mis Proyectos
+        </h2>
 
-    <!-- Contenedor Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      
-      <!-- TARJETA DE PROYECTO: PhotoFilms -->
-      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-        <!-- Imagen del Proyecto -->
-        <div class="h-48 overflow-hidden bg-slate-200">
-          <img src="img/photofilms-preview.png" alt="Preview de PhotoFilms" class="w-full h-full object-cover">
-        </div>
+        <!-- Contenedor Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- TARJETA DE PROYECTO: PhotoFilms -->
+          <div
+            class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+          >
+            <!-- Imagen del Proyecto -->
+            <div class="h-48 overflow-hidden bg-slate-200">
+              <img
+                src="img/photofilms-preview.png"
+                alt="Preview de PhotoFilms"
+                class="w-full h-full object-cover"
+              />
+            </div>
 
-        <!-- Contenido de la Tarjeta -->
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-slate-900 mb-2">PhotoFilms</h3>
-          <p class="text-slate-600 text-sm mb-4">
-            Landing page para una productora audiovisual enfocada en fotografía cinematográfica. Diseño minimalista y dark mode.
-          </p>
-          
-          <!-- Etiquetas de tecnología -->
-          <div class="flex gap-2 mb-6">
-            <span class="px-2 py-1 bg-blue-100 text-blue-600 text-xs font-semibold rounded">Tailwind</span>
-            <span class="px-2 py-1 bg-yellow-100 text-yellow-600 text-xs font-semibold rounded">JavaScript</span>
+            <!-- Contenido de la Tarjeta -->
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-slate-900 mb-2">PhotoFilms</h3>
+              <p class="text-slate-600 text-sm mb-4">
+                Landing page para una productora audiovisual enfocada en
+                fotografía cinematográfica. Diseño minimalista y dark mode.
+              </p>
+
+              <!-- Etiquetas de tecnología -->
+              <div class="flex gap-2 mb-6">
+                <span
+                  class="px-2 py-1 bg-blue-100 text-blue-600 text-xs font-semibold rounded"
+                  >Tailwind</span
+                >
+                <span
+                  class="px-2 py-1 bg-yellow-100 text-yellow-600 text-xs font-semibold rounded"
+                  >JavaScript</span
+                >
+              </div>
+
+              <!-- Botones de Acción -->
+              <div class="flex justify-between items-center">
+                <button
+                  onclick="
+                    openProject(
+                      'https://photofilmsgroup.vercel.app/',
+                      'PhotoFilms Project',
+                    )
+                  "
+                  class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  Ver Proyecto
+                </button>
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.82 1.102.82 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.627-5.373-12-12-12z"
+                  />
+                </svg>
+              </div>
+            </div>
           </div>
 
-          <!-- Botones de Acción -->
-          <div class="flex justify-between items-center">
-            <button 
-                onclick="openProject('https://photofilmsgroup.vercel.app/', 'PhotoFilms Project')" 
-                class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
-                Ver Proyecto
-            </button>
-               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.82 1.102.82 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          <!-- Añade más tarjetas aquí para otros proyectos -->
+          <!-- TARJETA DE PROYECTO: PhotoFilms -->
+          <div
+            class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300"
+          >
+            <!-- Imagen del Proyecto -->
+            <div class="h-48 overflow-hidden bg-slate-200">
+              <img
+                src="img/fincas.png"
+                alt="Preview de PhotoFilms"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <!-- Contenido de la Tarjeta -->
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-slate-900 mb-2">
+                Fincas Laguna
+              </h3>
+              <p class="text-slate-600 text-sm mb-4">
+                Trabajo de Rediseño corporativo para una administradora de
+                fincas y gestión administrativa. Diseño minimalista y
+                corporativo.
+              </p>
+
+              <!-- Etiquetas de tecnología -->
+              <div class="flex gap-2 mb-6">
+                <span
+                  class="px-2 py-1 bg-blue-100 text-blue-600 text-xs font-semibold rounded"
+                  >Tailwind</span
+                >
+                <span
+                  class="px-2 py-1 bg-yellow-100 text-yellow-600 text-xs font-semibold rounded"
+                  >JavaScript</span
+                >
+              </div>
+
+              <!-- Botones de Acción -->
+              <div class="flex justify-between items-center">
+                <button
+                  onclick="
+                    openProject(
+                      'docs/fincas_laguna.pdf',
+                      'Fincas Laguna Project',
+                    )
+                  "
+                  class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  Ver Proyecto
+                </button>
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.82 1.102.82 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.627-5.373-12-12-12z"
+                  />
+                </svg>
+              </div>
+            </div>
           </div>
+
+          <!-- Añade más tarjetas aquí para otros proyectos -->
         </div>
       </div>
-
-      <!-- Añade más tarjetas aquí para otros proyectos -->
-       <!-- TARJETA DE PROYECTO: PhotoFilms -->
-      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-        <!-- Imagen del Proyecto -->
-        <div class="h-48 overflow-hidden bg-slate-200">
-          <img src="img/fincas.png" alt="Preview de PhotoFilms" class="w-full h-full object-cover">
-        </div>
-
-        <!-- Contenido de la Tarjeta -->
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-slate-900 mb-2">Fincas Laguna</h3>
-          <p class="text-slate-600 text-sm mb-4">
-            Trabajo de Rediseño corporativo para una administradora de fincas y gestión administrativa. Diseño minimalista y corporativo.
-          </p>
-          
-          <!-- Etiquetas de tecnología -->
-          <div class="flex gap-2 mb-6">
-            <span class="px-2 py-1 bg-blue-100 text-blue-600 text-xs font-semibold rounded">Tailwind</span>
-            <span class="px-2 py-1 bg-yellow-100 text-yellow-600 text-xs font-semibold rounded">JavaScript</span>
-          </div>
-
-          <!-- Botones de Acción -->
-          <div class="flex justify-between items-center">
-            <button 
-                onclick="openProject('docs/fincas_laguna.pdf', 'Fincas Laguna Project')" 
-                class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
-                Ver Proyecto
-            </button>
-               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.82 1.102.82 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.627-5.373-12-12-12z"/></svg>
-          </div>
-        </div>
-      </div>
-
-      <!-- Añade más tarjetas aquí para otros proyectos -->
-
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- PROCESO -->
     <section class="py-20 px-6 bg-black text-white">
-        <div class="max-w-6xl mx-auto">
-            <div class="mb-12">
-                <h2 class="text-3xl font-bold">Cómo trabajamos</h2>
-                <p class="text-gray-400 mt-2 text-lg">Un proceso claro para resultados impecables.</p>
-            </div>
-            <div class="grid md:grid-cols-5 gap-8">
-                <div class="border-l border-gray-800 pl-6 py-4">
-                    <div class="text-blue-500 font-bold mb-2">01</div>
-                    <h4 class="font-bold">Análisis</h4>
-                    <p class="text-sm text-gray-400 mt-2">Briefing inicial para entender tu marca.</p>
-                </div>
-                <div class="border-l border-gray-800 pl-6 py-4">
-                    <div class="text-blue-500 font-bold mb-2">02</div>
-                    <h4 class="font-bold">Propuesta</h4>
-                    <p class="text-sm text-gray-400 mt-2">Desarrollo del concepto creativo.</p>
-                </div>
-                <div class="border-l border-gray-800 pl-6 py-4">
-                    <div class="text-blue-500 font-bold mb-2">03</div>
-                    <h4 class="font-bold">Revisión</h4>
-                    <p class="text-sm text-gray-400 mt-2">Ajustes basados en tu feedback.</p>
-                </div>
-                <div class="border-l border-gray-800 pl-6 py-4">
-                    <div class="text-blue-500 font-bold mb-2">04</div>
-                    <h4 class="font-bold">Aprobación</h4>
-                    <p class="text-sm text-gray-400 mt-2">Validación final del diseño.</p>
-                </div>
-                <div class="border-l border-gray-800 pl-6 py-4">
-                    <div class="text-blue-500 font-bold mb-2">05</div>
-                    <h4 class="font-bold">Entrega</h4>
-                    <p class="text-sm text-gray-400 mt-2">Archivos finales listos para usar.</p>
-                </div>
-            </div>
+      <div class="max-w-6xl mx-auto">
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold">Cómo trabajamos</h2>
+          <p class="text-gray-400 mt-2 text-lg">
+            Un proceso claro para resultados impecables.
+          </p>
         </div>
+        <div class="grid md:grid-cols-5 gap-8">
+          <div class="border-l border-gray-800 pl-6 py-4">
+            <div class="text-blue-500 font-bold mb-2">01</div>
+            <h4 class="font-bold">Análisis</h4>
+            <p class="text-sm text-gray-400 mt-2">
+              Briefing inicial para entender tu marca.
+            </p>
+          </div>
+          <div class="border-l border-gray-800 pl-6 py-4">
+            <div class="text-blue-500 font-bold mb-2">02</div>
+            <h4 class="font-bold">Propuesta</h4>
+            <p class="text-sm text-gray-400 mt-2">
+              Desarrollo del concepto creativo.
+            </p>
+          </div>
+          <div class="border-l border-gray-800 pl-6 py-4">
+            <div class="text-blue-500 font-bold mb-2">03</div>
+            <h4 class="font-bold">Revisión</h4>
+            <p class="text-sm text-gray-400 mt-2">
+              Ajustes basados en tu feedback.
+            </p>
+          </div>
+          <div class="border-l border-gray-800 pl-6 py-4">
+            <div class="text-blue-500 font-bold mb-2">04</div>
+            <h4 class="font-bold">Aprobación</h4>
+            <p class="text-sm text-gray-400 mt-2">
+              Validación final del diseño.
+            </p>
+          </div>
+          <div class="border-l border-gray-800 pl-6 py-4">
+            <div class="text-blue-500 font-bold mb-2">05</div>
+            <h4 class="font-bold">Entrega</h4>
+            <p class="text-sm text-gray-400 mt-2">
+              Archivos finales listos para usar.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- CONTACTO -->
     <section id="contacto" class="py-24 px-6 bg-white">
-        <div class="max-w-4xl mx-auto bg-gray-50 rounded-[3rem] p-12 text-center border border-gray-100">
-            <h2 class="text-4xl font-bold mb-4">¿Tienes un proyecto en mente?</h2>
-            <p class="text-gray-600 mb-10 text-lg">Estoy listo para ayudarte a desarrollar tu imagen profesional.</p>
-            
-            <div class="grid md:grid-cols-3 gap-6 mb-12">
-                <a href="mailto:herreramultimediard@gmail.com" target="_blank" class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition group">
-                    <i class="fas fa-envelope text-2xl text-blue-600 mb-4 group-hover:scale-110 transition"></i>
-                    <p class="font-bold text-sm">Email</p>
-                    <p class="text-xs text-gray-500 mt-1">Escríbeme ahora</p>
-                </a>
-                <a href="https://wa.me/+34622760546" target="_blank" class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition group">
-                    <i class="fab fa-whatsapp text-2xl text-green-500 mb-4 group-hover:scale-110 transition"></i>
-                    <p class="font-bold text-sm">WhatsApp</p>
-                    <p class="text-xs text-gray-500 mt-1">Chat directo</p>
-                </a>
-                <a href="https://www.instagram.com/herreramultimediard/" target="_blank" class="p-6 bg-white rounded-2xl shadow-sm">
-                    <i class="fab fa-instagram text-2xl text-red-500 mb-4"></i>
-                    <p class="font-bold text-sm">Instagram</p>
-                    <p class="text-xs text-gray-500 mt-1">Ver mas trabajos</p>
-                </a>
-            </div>
+      <div
+        class="max-w-4xl mx-auto bg-gray-50 rounded-[3rem] p-12 text-center border border-gray-100"
+      >
+        <h2 class="text-4xl font-bold mb-4">¿Tienes un proyecto en mente?</h2>
+        <p class="text-gray-600 mb-10 text-lg">
+          Estoy listo para ayudarte a desarrollar tu imagen profesional.
+        </p>
 
-            <div class="text-left bg-white p-8 rounded-3xl border border-gray-100 inline-block w-full max-w-2xl">
-                <h4 class="font-bold mb-4 flex items-center gap-2">
-                    <i class="fas fa-info-circle text-blue-600"></i>
-                    Condiciones de Servicio
-                </h4>
-                <ul class="text-sm text-gray-500 grid md:grid-cols-2 gap-3">
-                    <li>• Revisiones según servicio</li>
-                    <li>• Recomendado 50% anticipo</li>
-                    <li>• Plazos orientativos</li>
-                    <li>• Entregas urgentes con recargo</li>
-                </ul>
-            </div>
+        <div class="grid md:grid-cols-3 gap-6 mb-12">
+          <a
+            href="mailto:herreramultimediard@gmail.com"
+            target="_blank"
+            class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition group"
+          >
+            <i
+              class="fas fa-envelope text-2xl text-blue-600 mb-4 group-hover:scale-110 transition"
+            ></i>
+            <p class="font-bold text-sm">Email</p>
+            <p class="text-xs text-gray-500 mt-1">Escríbeme ahora</p>
+          </a>
+          <a
+            href="https://wa.me/+34622760546"
+            target="_blank"
+            class="p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition group"
+          >
+            <i
+              class="fab fa-whatsapp text-2xl text-green-500 mb-4 group-hover:scale-110 transition"
+            ></i>
+            <p class="font-bold text-sm">WhatsApp</p>
+            <p class="text-xs text-gray-500 mt-1">Chat directo</p>
+          </a>
+          <a
+            href="https://www.instagram.com/herreramultimediard/"
+            target="_blank"
+            class="p-6 bg-white rounded-2xl shadow-sm"
+          >
+            <i class="fab fa-instagram text-2xl text-red-500 mb-4"></i>
+            <p class="font-bold text-sm">Instagram</p>
+            <p class="text-xs text-gray-500 mt-1">Ver mas trabajos</p>
+          </a>
         </div>
+
+        <div
+          class="text-left bg-white p-8 rounded-3xl border border-gray-100 inline-block w-full max-w-2xl"
+        >
+          <h4 class="font-bold mb-4 flex items-center gap-2">
+            <i class="fas fa-info-circle text-blue-600"></i>
+            Condiciones de Servicio
+          </h4>
+          <ul class="text-sm text-gray-500 grid md:grid-cols-2 gap-3">
+            <li>• Revisiones según servicio</li>
+            <li>• Recomendado 50% anticipo</li>
+            <li>• Plazos orientativos</li>
+            <li>• Entregas urgentes con recargo</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer class="py-12 border-t border-gray-100 text-center">
-        <p class="text-gray-400 text-sm font-medium">© 2024 HERRERA MULTIMEDIA. Todos los derechos reservados.</p>
+      <p class="text-gray-400 text-sm font-medium">
+        © 2024 HERRERA MULTIMEDIA. Todos los derechos reservados.
+      </p>
     </footer>
 
     <!-- Contenedor del Modal (Oculto por defecto) -->
-<div id="projectModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
-  
-  <!-- Contenido del Modal -->
-  <div class="relative w-full max-w-6xl h-[90vh] bg-white rounded-2xl overflow-hidden shadow-2xl flex flex-col">
-    
-    <!-- Barra superior del Modal -->
-    <div class="flex items-center justify-between p-4 border-b bg-slate-50">
-      <h3 id="modalTitle" class="font-bold text-slate-800">Vista Previa del Proyecto</h3>
-      <button onclick="closeModal()" class="p-2 hover:bg-slate-200 rounded-full transition-colors text-slate-600">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-      </button>
-    </div>
+    <div
+      id="projectModal"
+      class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+    >
+      <!-- Contenido del Modal -->
+      <div
+        class="relative w-full max-w-6xl h-[90vh] bg-white rounded-2xl overflow-hidden shadow-2xl flex flex-col"
+      >
+        <!-- Barra superior del Modal -->
+        <div class="flex items-center justify-between p-4 border-b bg-slate-50">
+          <h3 id="modalTitle" class="font-bold text-slate-800">
+            Vista Previa del Proyecto
+          </h3>
+          <button
+            onclick="closeModal()"
+            class="p-2 hover:bg-slate-200 rounded-full transition-colors text-slate-600"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </button>
+        </div>
 
-    <!-- El Iframe donde se cargará la web -->
-    <div class="flex-1 bg-slate-100">
-      <iframe id="modalFrame" src="" class="w-full h-full border-none"></iframe>
-    </div>
+        <!-- El Iframe donde se cargará la web -->
+        <div class="flex-1 bg-slate-100">
+          <iframe
+            id="modalFrame"
+            src=""
+            class="w-full h-full border-none"
+          ></iframe>
+        </div>
 
-    <!-- Barra inferior con link directo por si el iframe falla -->
-    <div class="p-3 bg-white text-center border-t">
-       <a id="modalExternalLink" href="#" target="_blank" class="text-sm text-blue-600 hover:underline">Abrir en una pestaña nueva si no carga correctamente</a>
+        <!-- Barra inferior con link directo por si el iframe falla -->
+        <div class="p-3 bg-white text-center border-t">
+          <a
+            id="modalExternalLink"
+            href="#"
+            target="_blank"
+            class="text-sm text-blue-600 hover:underline"
+            >Abrir en una pestaña nueva si no carga correctamente</a
+          >
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<script src="js/script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
